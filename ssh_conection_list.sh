@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Check version bash
 if [[ "${BASH_VERSINFO[0]}" -lt 4 ]]; then   errx \     "Requires bash greater-than or equal to four (${BASH_VERSINFO[0]}>=4)." \     99 \   ;
 fi
 
